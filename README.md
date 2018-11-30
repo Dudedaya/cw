@@ -7,6 +7,7 @@ Snail
 
 import java.util.*;
 public class Snail {
+
     public static int[] snail(int[][] array) {
       if (array.length == 1) {        
         return array[0];
@@ -57,9 +58,7 @@ public class Snail {
         }        
      }
      System.out.println(Arrays.toString(result));
-     return result;
-   } 
-}
+     return result;   } }
 
 4 kyu
 Large Factorials
