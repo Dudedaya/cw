@@ -1,7 +1,6 @@
 # cw
 www.codewars.com/users/Dudedaya
 
-==========================
 4 kyu
 Snail
 ==========================
