@@ -61,7 +61,7 @@ public class Snail {
      System.out.println(Arrays.toString(result));
      return result;
      }
-     }
+}
 
 4 kyu
 Large Factorials
