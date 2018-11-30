@@ -4,11 +4,9 @@ https://www.codewars.com/users/Dudedaya/completed
 4 kyu
 Snail
 ==========================
-...
+
 import java.util.*;
-
 public class Snail {
-
     public static int[] snail(int[][] array) {
       if (array.length == 1) {        
         return array[0];
@@ -62,15 +60,13 @@ public class Snail {
      return result;
    } 
 }
-...
+
 4 kyu
 Large Factorials
 ==========================
 
 import java.math.BigInteger;
-
 public class Kata {
-
   public static String Factorial(int n) {
     if (n < 0) {
       return null;
@@ -84,7 +80,6 @@ public class Kata {
       return fac.toString();
     }    
   }
-
 }
 
 4 kyu
