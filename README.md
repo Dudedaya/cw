@@ -67,24 +67,24 @@ public class Snail {
 Large Factorials
 ==========================
 
-import java.math.BigInteger;
+	import java.math.BigInteger;
 
-public class Kata {
+	public class Kata {
 
-  public static String Factorial(int n) {
-    if (n < 0) {
-      return null;
-    } else if (n == 0) {
-      return "1";
-    } else {
-      BigInteger fac = BigInteger.ONE;
-      for (int i = 2; i <= n; i++) {
-        fac = fac.multiply(BigInteger.valueOf((long)i));
-      }
-      return fac.toString();
-    }    
-  }
-}
+		public static String Factorial(int n) {
+	    if (n < 0) {
+	      return null;
+	    } else if (n == 0) {
+	      return "1";
+	    } else {
+	      BigInteger fac = BigInteger.ONE;
+	      for (int i = 2; i <= n; i++) {
+		fac = fac.multiply(BigInteger.valueOf((long)i));
+	      }
+	      return fac.toString();
+	    }    
+	  }
+	}
 
 4 kyu
 Sudoku Solution Validator
