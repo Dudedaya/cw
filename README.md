@@ -91,6 +91,7 @@ Sudoku Solution Validator
 ==========================
 
 public class SudokuValidator {
+
     public static boolean check(int[][] sudoku) {
         String sudStr = asString(sudoku);
         System.out.println(sudStr);
@@ -164,6 +165,7 @@ Primes in numbers
 ==========================
 
 import java.util.*;
+
 public class PrimeDecomp {
        
     public static String factors(int n) {
@@ -211,9 +213,10 @@ Catching Car Mileage Numbers
 ==========================
 
 import java.util.*;
+
 public class CarMileage {
 
-  public static int isInteresting(int number, int[] awesomePhrases) {
+	public static int isInteresting(int number, int[] awesomePhrases) {
     if (number < 100) {
       if (number == 98 || number == 99) {
         return 1;
@@ -228,9 +231,8 @@ public class CarMileage {
     } else {
       return 0;
     }
-  }
-  
-  private static boolean zeroCheck(int[] a) {
+	}  
+	private static boolean zeroCheck(int[] a) {
     int sum = 0;
     for (int i : a) {
       sum+= i;
@@ -240,9 +242,8 @@ public class CarMileage {
     } else {
       return false;
     }      
-  }
-  
-  private static boolean sameCheck(int[] a) {
+	}  
+	private static boolean sameCheck(int[] a) {
     boolean b = true;
     for (int i : a) {
       if (a[0] != i) {
@@ -250,9 +251,8 @@ public class CarMileage {
       }
     }
     return b;
-  }
-  
-  private static boolean incCheck(int[] a) {
+	}  
+	private static boolean incCheck(int[] a) {
     boolean b = true;
     for (int i = 1; i < a.length; i++) {
       if (a[i] != (a[i-1] + 1) % 10) {
@@ -260,9 +260,8 @@ public class CarMileage {
       }      
     }
     return b;
-  }
-  
-  private static boolean decCheck(int[] a) {
+    }
+    private static boolean decCheck(int[] a) {
     boolean b = true;
     for (int i = 1; i < a.length; i++) {
       if (a[i] != a[i-1] - 1) {
@@ -270,9 +269,8 @@ public class CarMileage {
       }
     }
     return b;
-  }
-  
-  private static boolean paliCheck(int[] a) {
+    }
+    private static boolean paliCheck(int[] a) {
     if (a.length % 2 == 0) {
       int[] a01 = Arrays.copyOfRange(a, 0, (a.length - 1)/2);
       List<Integer> a1 = new ArrayList<Integer>();
@@ -308,21 +306,18 @@ public class CarMileage {
         return false;
       }
     }
-  }
-  
-  private static boolean aweCheck(int[] awe, int n) {
+    }  
+    private static boolean aweCheck(int[] awe, int n) {
     for (int i : awe) {      
       if (n == i) {      
       return true;
       }
     }    
     return false;
-  }
-  
-  private static boolean doChecks(int[] awe, int n) {
+    } 
+    private static boolean doChecks(int[] awe, int n) {
     String s0 = Integer.toString(n);
-    String[] sa = s0.split("");
-    
+    String[] sa = s0.split("");    
     int l = s0.length();
     int[] a = new int[l];
     int i = 0;
@@ -346,6 +341,7 @@ Integers: Recreation One
 ==========================
 
 import java.util.*;
+
 public class SumSquaredDivisors {
 	
 	public static String listSquared(long m, long n) {
@@ -362,17 +358,15 @@ public class SumSquaredDivisors {
      //else trim the resulting string to look like an array
      String result = r.substring(0, r.length() - 2) + "]";
      return result;
-	}
-  
-  private static boolean checkSquare(long l) {
+	}  
+	private static boolean checkSquare(long l) {
     if (Math.sqrt(calculateDivSquare(l)) % 1 == 0) {
       return true;
     } else {
       return false;
     }
-  }
-  
-  private static long calculateDivSquare(long l) {
+	}  
+	private static long calculateDivSquare(long l) {
     long square = 0;
     for (long i = 1; i <= l; i++) {
       if (l % i == 0) {
@@ -412,7 +406,8 @@ Equal Sides Of An Array
 ==========================
 
 public class Kata {
-  public static int findEvenIndex(int[] arr) {
+
+	public static int findEvenIndex(int[] arr) {
     for (int i = 0; i < arr.length; i++) {
       int before = 0;
       int after = 0;
@@ -438,7 +433,7 @@ import java.util.*;
 
 public class Solution {
 
-  public int solution(int number) {
+	public int solution(int number) {
     int sum = 0;
     HashSet<Integer> hs = new HashSet<Integer>();
     for (int i = 1; i * 3 < number; i++) {
