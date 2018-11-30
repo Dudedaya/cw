@@ -70,6 +70,7 @@ Large Factorials
 import java.math.BigInteger;
 
 public class Kata {
+
   public static String Factorial(int n) {
     if (n < 0) {
       return null;
