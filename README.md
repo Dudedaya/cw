@@ -1,5 +1,5 @@
-# cw
-www.codewars.com/users/Dudedaya
+# CodeWars code examples
+https://www.codewars.com/users/Dudedaya/completed
 
 4 kyu
 Snail
@@ -63,7 +63,6 @@ public class Snail {
    } 
 }
 
-==========================
 4 kyu
 Large Factorials
 ==========================
@@ -89,7 +88,6 @@ public class Kata
 
 }
 
-==========================
 4 kyu
 Sudoku Solution Validator
 ==========================
@@ -163,7 +161,6 @@ public class SudokuValidator {
 
 }
 
-==========================
 5 kyu
 Primes in numbers
 ==========================
@@ -211,7 +208,6 @@ public class PrimeDecomp {
        
 }
 
-==========================
 4 kyu
 Catching Car Mileage Numbers
 ==========================
@@ -347,7 +343,6 @@ public class CarMileage {
   }
 }
 
-==========================
 5 kyu
 Integers: Recreation One
 ==========================
@@ -390,7 +385,6 @@ public class SumSquaredDivisors {
   }
 }
 
-==========================
 6 kyu
 Which are in?
 ==========================
@@ -415,7 +409,6 @@ public class WhichAreIn {
 	}
 }
 
-==========================
 6 kyu
 Equal Sides Of An Array
 ==========================
@@ -439,7 +432,6 @@ public class Kata {
   }
 }
 
-==========================
 6 kyu
 Multiples of 3 or 5
 ==========================
