@@ -4,7 +4,7 @@ https://www.codewars.com/users/Dudedaya/completed
 4 kyu
 Snail
 ==========================
-
+...
 import java.util.*;
 
 public class Snail {
@@ -62,7 +62,7 @@ public class Snail {
      return result;
    } 
 }
-
+...
 4 kyu
 Large Factorials
 ==========================
