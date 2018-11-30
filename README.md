@@ -6,6 +6,7 @@ Snail
 ==========================
 
 import java.util.*;
+
 public class Snail {
 
     public static int[] snail(int[][] array) {
@@ -58,13 +59,16 @@ public class Snail {
         }        
      }
      System.out.println(Arrays.toString(result));
-     return result;   } }
+     return result;
+     }
+     }
 
 4 kyu
 Large Factorials
 ==========================
 
 import java.math.BigInteger;
+
 public class Kata {
   public static String Factorial(int n) {
     if (n < 0) {
